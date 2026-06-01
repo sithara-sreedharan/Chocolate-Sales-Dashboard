@@ -52,7 +52,7 @@ Distribution chart and gauge visual help monitor shipment activity and operation
 #### Product & Salesperson Analysis
 Bookmark navigation enables users to switch between Product Performance and Salesperson Performance views, supporting both operational and workforce analysis.
 
-• Business Impact & Insights
+#### Business Impact & Insights
 
 Performance Monitoring: Track key business KPIs from a single dashboard.
 Geographic Analysis: Compare performance across countries and identify growth opportunities.
