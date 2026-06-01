@@ -1,12 +1,7 @@
 # Chocolate-Sales-Dashboard
-## 🍫 Awesome Chocolates Sales & Profit Dashboard
+## 🍫 Awesome Chocolates – Sales, Cost & Profit Analysis Dashboard
 
-An interactive and visually engaging Power BI dashboard designed to analyze chocolate sales performance across multiple countries, products, and shipment trends. The dashboard provides business insights into sales, profit margins, shipment efficiency, and product-level profitability to support data-driven decision-making.
-
-### 1. Project Title / Headline
-🍫 Awesome Chocolates – Sales, Cost & Profit Analysis Dashboard
-
-A dynamic Power BI dashboard built to monitor chocolate product performance across global markets with a focus on sales trends, shipment analysis, profitability, and operational efficiency.
+A dynamic Power BI dashboard built to analyze chocolate sales performance across multiple countries, products, and shipment trends. The dashboard provides business insights into sales, profit margins, shipment efficiency, and product-level profitability to support data-driven decision-making.
 
 ### 2. Short Description / Purpose
 
