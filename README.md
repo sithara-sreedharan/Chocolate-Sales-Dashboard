@@ -3,7 +3,7 @@
 
 A dynamic Power BI dashboard built to analyze chocolate sales performance across multiple countries, products, and shipment trends. The dashboard provides business insights into sales, profit margins, shipment efficiency, and product-level profitability to support data-driven decision-making.
 
-### 2. Short Description / Purpose
+### 2.Purpose
 
 The Awesome Chocolates Dashboard is an interactive Power BI report created to help businesses analyze sales, cost, shipment, and profit performance across different countries and chocolate product categories.
 
@@ -16,11 +16,17 @@ This dashboard is suitable for business analysts, sales managers, retail compani
 The dashboard was built using the following tools and technologies:
 
 📊 Power BI Desktop – Main platform used to build interactive reports and visualizations.
+
 📂 Power Query – Used for data cleaning, transformation, and shaping.
+
 🧠 DAX (Data Analysis Expressions) – Used for calculated measures, KPI indicators, conditional formatting, and dynamic calculations.
+
 🔗 Data Modeling – Relationships created between sales, shipment, product, and calendar tables for efficient filtering and aggregation.
+
 📈 Custom Visualizations – KPI cards, gauges, trend charts, and interactive tables used for storytelling and analysis.
+
 📁 File Format – .pbix for development and .png for dashboard preview images.
+
 
 ### 4. Data Source
 Source: Dataset provided by Chandoo.org Power BI Sample Dataset Repository
