@@ -179,4 +179,5 @@ By consolidating multiple business metrics into a single interactive dashboard, 
 
 6. Screenshots / Demos
 Show what the dashboard looks like. Example:
+https://github.com/sithara-sreedharan/Chocolate-Sales-Dashboard/blob/main/Screenshot%20Chocolate%20Sales%20Dashboard.png
 
