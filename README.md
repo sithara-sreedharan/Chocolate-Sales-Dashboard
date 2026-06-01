@@ -30,19 +30,20 @@ The dataset contains chocolate sales transactions including product details, shi
 ### 5. Features / Highlights
 
 • Walkthrough of Key Visuals
-KPI Summary Cards
+
+#### KPI Summary Cards
 Display Total Sales, Boxes Sold, Shipments, Cost, and Profit along with Month-over-Month performance indicators.
 
-Country Filter Panel
+#### Country Filter Panel
 Allows users to filter the entire dashboard by country (Australia, Canada, India, New Zealand, UK, and USA).
 
-Dynamic Metric Analysis
+#### Dynamic Metric Analysis
 A Field Parameter and Button Slicer allow users to switch between Sales, Boxes, Shipments, Cost, and Profit trends. A custom tooltip provides geography-wise breakdowns for deeper analysis.
 
-Shipment Analysis
+#### Shipment Analysis
 Distribution chart and gauge visual help monitor shipment activity and operational performance.
 
-Product & Salesperson Analysis
+#### Product & Salesperson Analysis
 Bookmark navigation enables users to switch between Product Performance and Salesperson Performance views, supporting both operational and workforce analysis.
 
 • Business Impact & Insights
