@@ -176,3 +176,7 @@ Through the use of Field Parameters, Button Slicers, Bookmarks, and Interactive 
 ⚡ Faster Decision-Making
 
 By consolidating multiple business metrics into a single interactive dashboard, stakeholders can move from data collection to decision-making more efficiently, improving responsiveness to changing business conditions.
+
+6. Screenshots / Demos
+Show what the dashboard looks like. Example:
+
