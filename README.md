@@ -64,6 +64,6 @@ Faster Decision-Making: Enable stakeholders to make informed decisions using int
 ### 6. Screenshots / Demos
 Show what the dashboard looks like.
 
-Example:![Dashboard Preview] https://github.com/sithara-sreedharan/Chocolate-Sales-Dashboard/blob/main/Screenshot%20Chocolate%20Sales%20Dashboard.png 
+Example:![Dashboard Preview](https://github.com/sithara-sreedharan/Chocolate-Sales-Dashboard/blob/main/Screenshot%20Chocolate%20Sales%20Dashboard.png) 
 
 
