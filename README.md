@@ -62,7 +62,7 @@ Operational Visibility: Monitor shipment activity and fulfillment trends.
 Faster Decision-Making: Enable stakeholders to make informed decisions using interactive, self-service analytics.
 
 ### 6. Screenshots / Demos
-Show what the dashboard looks like.-![Alt text](https://github.com/sithara-sreedharan/repo/assets/image.png)
+Show what the dashboard looks like.-![Alt text](https://github.com/sithara-sreedharan/Screenshot Chocolate Sales Dashboard.png)
 Example: ![Dashboard Preview] https://github.com/sithara-sreedharan/Chocolate-Sales-Dashboard/blob/main/Screenshot%20Chocolate%20Sales%20Dashboard.png
 
 
