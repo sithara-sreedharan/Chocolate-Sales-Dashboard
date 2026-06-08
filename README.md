@@ -1,68 +1,77 @@
-# Chocolate-Sales-Dashboard
-## 🍫 Awesome Chocolates – Sales, Cost & Profit Analysis Dashboard
+## Awesome Chocolate Sales Analytics Dashboard
 
-A dynamic Power BI dashboard built to analyze chocolate sales performance across multiple countries, products, and shipment trends. The dashboard provides business insights into sales, profit margins, shipment efficiency, and product-level profitability to support data-driven decision-making.
+### About the Project
+The dashboard provides deep insights into the sales performance of "Awesome Chocolate," a fictional chocolate manufacturer. It analyzes key metrics such as sales, boxes shipped, costs, and profits, while also offering a specialized view into "Low Box Shipments" (shipments under 50 boxes) and month-on-month performance trends
 
-### 2.Purpose
+### Built With
+Power BI Desktop: The primary platform for data visualization and report creation.
 
-The Awesome Chocolates Dashboard is an interactive Power BI report created to help businesses analyze sales, cost, shipment, and profit performance across different countries and chocolate product categories.
+Power Query: Used for data transformation, cleaning, and creating derived calendar columns.
 
-The dashboard enables users to track KPIs, compare product profitability, monitor shipment behavior, and identify high-performing products and regions through visually rich and intuitive analytics.
+DAX (Data Analysis Expressions): Utilized to build complex measures, time intelligence calculations,
+and field parameters.
 
-This dashboard is suitable for business analysts, sales managers, retail companies, and decision-makers who want quick insights into product performance and operational trends.
+Excel: The source format for the sample data tables.
 
-### 3. Tech Stack
+PowerPoint: Used for designing the dashboard wireframe and creating custom icons/logos.
 
-The dashboard was built using the following tools and technologies:
+### Data Preparation
+The raw data was imported from an Excel workbook containing five distinct tables
 
-📊 Power BI Desktop – Main platform used to build interactive reports and visualizations.
+During the transformation phase in Power Query, the following steps were taken:
+Validated data types and performed necessary cleanup.
 
-📂 Power Query – Used for data cleaning, transformation, and shaping.
+Enhanced the Calendar Table by adding columns for Year, Month Number, Month Name, Day of Week, and a "Start of Month" date for chronological sorting in visuals.
 
-🧠 DAX (Data Analysis Expressions) – Used for calculated measures, KPI indicators, conditional formatting, and dynamic calculations.
+Created Box Bins in the shipment table to facilitate histogram analysis for shipment distribution.
 
-🔗 Data Modeling – Relationships created between sales, shipment, product, and calendar tables for efficient filtering and aggregation.
+### Data Modeling
+The project utilizes a Star Schema data model for optimized performance:
 
-📈 Custom Visualizations – KPI cards, gauges, trend charts, and interactive tables used for storytelling and analysis.
+Fact Table: Shipments (contains granular transaction data).
 
-📁 File Format – .pbix for development and .png for dashboard preview images.
+Dimension Tables: Salesperson, Product, Geography, and Calendar.
 
+Relationships: Dimension tables are neatly connected to the fact table using unique keys such as salesperson name, product ID, geography, and date.
 
-### 4. Data Source
-Source: Dataset provided by Chandoo.org Power BI Sample Dataset Repository
+The Calendar table was marked as a "Date Table" to ensure accurate time intelligence calculations.
 
-Description:
-The dataset contains chocolate sales transactions including product details, shipment information, sales revenue, costs, profits, and regional performance data. It is commonly used for Power BI learning, dashboard development, and data visualization projects.
-### 5. Features / Highlights
+### DAX Measures
+A dedicated measure table was created to house all calculations
 
-• Walkthrough of Key Visuals
+Key measures include:
+Basic KPIs: Total Sales, Total Boxes, and Total Shipments (calculated using SUM and COUNTROWS).
 
-#### KPI Summary Cards
-Display Total Sales, Boxes Sold, Shipments, Cost, and Profit along with Month-over-Month performance indicators.
+Profitability Analysis: Total Costs (calculated by multiplying boxes by the related product cost), Total Profit, and Profit Percentage.
 
-#### Country Filter Panel
-Allows users to filter the entire dashboard by country (Australia, Canada, India, New Zealand, UK, and USA).
+Logic-Based Metrics: LBS Count and LBS % to identify shipments with fewer than 50 boxes.
 
-#### Dynamic Metric Analysis
-A Field Parameter and Button Slicer allow users to switch between Sales, Boxes, Shipments, Cost, and Profit trends. A custom tooltip provides geography-wise breakdowns for deeper analysis.
+Time Intelligence: Total Sales Previous Month and Month-on-Month Sales Change % to track growth trends.
 
-#### Shipment Analysis
-Distribution chart and gauge visual help monitor shipment activity and operational performance.
+Dynamic Labels: Latest Month Sales and Latest Month-on-Month Change to drive content in the KPI cards.
 
-#### Product & Salesperson Analysis
-Bookmark navigation enables users to switch between Product Performance and Salesperson Performance views, supporting both operational and workforce analysis.
+### Dashboard Features
+KPI Header: Features the new Card Visual with reference labels, custom icons, and conditional formatting to highlight positive or negative month-on-month changes.
 
-#### Business Impact & Insights
+Dynamic Trend Chart: A line graph integrated with Field Parameters, allowing users to toggle the view between Sales, Boxes, Shipments, Costs, and Profit.
 
-Performance Monitoring: Track key business KPIs from a single dashboard.
-Geographic Analysis: Compare performance across countries and identify growth opportunities.
-Product Optimization: Identify high-performing and low-performing products.
-Sales Team Evaluation: Assess salesperson contributions and performance.
-Operational Visibility: Monitor shipment activity and fulfillment trends.
-Faster Decision-Making: Enable stakeholders to make informed decisions using interactive, self-service analytics.
+Interactive Histogram: Visualizes shipment density with a Zoom Slider for detailed exploration of box counts.
 
-### 6. Screenshots / Demos
-Show what the dashboard looks like.
+Dual-View Table with Bookmarks: An interactive section that uses Bookmarks to switch between "Salesperson Performance" and "Product Performance" details.
+
+Advanced Formatting: Includes Data Bars for profit percentages and Traffic Light Icons (Red/Amber/Green) to indicate performance against targets.
+
+Global Filters & Tooltips: A slick slicer panel for Category and Geography, paired with custom Tooltips that provide geographic breakdowns when hovering over data points.
+
+### Insights
+Profitability Variance: Analysis revealed significant profit margin differences between products; for example, Peanut Butter Cubes reached an 87% profit margin, while Baker's Choco Chip only achieved 17.4%.
+
+Shipment Trends: The dashboard identified that 10.2% of total shipments were "Low Box" samples, with specific products like Milk Bar having a much higher LBS percentage (16.5%) than others like Raspberry Choco (5%).
+
+Target Monitoring: Through the traffic light indicators, the business can quickly identify which salespersons are meeting the 60% profit target.
+
+### Screenshots / Demos
+The dashboard looks like.
 
 Example:![Dashboard Preview](https://github.com/sithara-sreedharan/Chocolate-Sales-Dashboard/blob/main/Screenshot%20Chocolate%20Sales%20Dashboard.png) 
 
